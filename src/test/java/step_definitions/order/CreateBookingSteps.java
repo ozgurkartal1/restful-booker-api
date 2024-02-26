@@ -1,4 +1,4 @@
-package step_definitions;
+package step_definitions.order;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
@@ -8,12 +8,13 @@ import org.assertj.core.api.SoftAssertions;
 import pojo.request.booking.Bookingdates;
 import pojo.request.booking.BookingReq;
 import pojo.response.booking.create_booking.CreateBookingRes;
+import step_definitions.BaseStep;
 import utils.APIUtils;
 import utils.TestDataWriter;
 
 import java.util.Map;
 
-public class CreateBookingSteps extends BaseStep{
+public class CreateBookingSteps extends BaseStep {
 
     BookingReq payload = new BookingReq();
 

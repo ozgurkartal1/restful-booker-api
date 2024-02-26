@@ -1,14 +1,15 @@
-package step_definitions;
+package step_definitions.order;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 import org.assertj.core.api.SoftAssertions;
 import pojo.response.booking.create_booking.CreateBookingRes;
 import pojo.response.booking.get_booking.GetBookingRes;
+import step_definitions.BaseStep;
 import utils.APIUtils;
 import utils.TestDataReader;
 
-public class GetABookingSteps extends BaseStep{
+public class GetABookingSteps extends BaseStep {
 
     GetBookingRes actualResult;
 

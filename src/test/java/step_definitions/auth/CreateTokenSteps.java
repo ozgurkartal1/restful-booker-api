@@ -1,4 +1,4 @@
-package step_definitions;
+package step_definitions.auth;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -6,6 +6,7 @@ import io.cucumber.java.en.When;
 import org.assertj.core.api.Assertions;
 import pojo.request.auth.CreateTokenReq;
 import pojo.response.auth.CreateTokenRes;
+import step_definitions.BaseStep;
 import utils.APIUtils;
 import utils.TestDataWriter;
 

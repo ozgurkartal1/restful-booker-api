@@ -1,4 +1,4 @@
-package step_definitions;
+package step_definitions.order;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
@@ -10,12 +10,13 @@ import pojo.request.booking.Bookingdates;
 import pojo.response.auth.CreateTokenRes;
 import pojo.response.booking.create_booking.CreateBookingRes;
 import pojo.response.booking.update_booking.UpdateBookingRes;
+import step_definitions.BaseStep;
 import utils.APIUtils;
 import utils.TestDataReader;
 
 import java.util.Map;
 
-public class UpdateBookingSteps extends BaseStep{
+public class UpdateBookingSteps extends BaseStep {
 
     BookingReq payload = new BookingReq();
 
